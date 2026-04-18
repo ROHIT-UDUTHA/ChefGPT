@@ -1,4 +1,4 @@
-# � ChefGPT - Your Personal AI Sous-Chef
+# � ChefGPT - Your Personal AI Chef
 
 Ever stared at a fridge full of ingredients with no idea what to make? ChefGPT is here to help! This little app is like having a personal chef in your pocket. It uses AI to whip up custom recipes based on your tastes, dietary needs, and whatever you've got on hand.
 
