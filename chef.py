@@ -14,6 +14,7 @@ client = OpenAI(
 st.set_page_config(page_title="ChefGPT", page_icon="🍛")
 st.header("ChefGPT 🍜", divider="gray")
 
+uploaded_image = None
 
 detected_ingredients = ""
 
