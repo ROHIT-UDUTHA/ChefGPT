@@ -2,6 +2,7 @@ import streamlit as st
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
+import base64
 
 # Load .env variables
 load_dotenv(override=True)
@@ -14,7 +15,7 @@ client = OpenAI(
 st.set_page_config(page_title="ChefGPT", page_icon="🍛")
 st.header("ChefGPT 🍜", divider="gray")
 
-uploaded_image = None
+uploaded_image = st.file_uploader("📸 Upload food image (optional)", type=["jpg", "png", "jpeg"])
 
 detected_ingredients = ""
 
@@ -103,7 +104,7 @@ if generate:
         with st.spinner("Generating your recipes..."):
             try:
                 response = client.chat.completions.create(
-                                        model="openrouter/auto",  # Or try: meta-llama/llama-3-8b-instruct
+                    model="openrouter/auto",  # Or try: meta-llama/llama-3-8b-instruct
                     messages=[
                         {"role": "system", "content": "You are a helpful culinary assistant."},
                         {"role": "user", "content": prompt}
