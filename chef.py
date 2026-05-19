@@ -2,7 +2,6 @@ import streamlit as st
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
-import base64
 
 # Load .env variables
 load_dotenv(override=True)
@@ -15,7 +14,6 @@ client = OpenAI(
 st.set_page_config(page_title="ChefGPT", page_icon="🍛")
 st.header("ChefGPT 🍜", divider="gray")
 
-uploaded_image = st.file_uploader("📸 Upload food image (optional)", type=["jpg", "png", "jpeg"])
 
 detected_ingredients = ""
 
