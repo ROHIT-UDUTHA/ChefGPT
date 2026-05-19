@@ -2,15 +2,12 @@
 
 Ever stared at a fridge full of ingredients with no idea what to make? ChefGPT is here to help! This little app is like having a personal chef in your pocket. It uses AI to whip up custom recipes based on your tastes, dietary needs, and whatever you've got on hand.
 
-The coolest part? You can just snap a picture of your ingredients, and ChefGPT will figure out what you've got and suggest recipes for you.
-
 ## ✨ What it Can Do
 
 - **Explore Cuisines**: Fancy some Italian, Mexican, or maybe Japanese tonight? Just pick a cuisine.
 - **Handle Your Diet**: Whether you're vegan, keto, gluten-free, or have other needs, ChefGPT has you covered.
 - **Dodge Allergies**: Got an allergy? Let the app know, and it'll keep those ingredients out.
 - **Use What You Have**: Tell it a few key ingredients, and it'll build a recipe around them.
-- **See-Food Diet**: Upload a photo of your food, and the app's AI vision will identify the ingredients for you.
 - **Wine Pairing**: Get a simple red or white wine suggestion to go with your meal.
 - **Full Recipe Details**: Every recipe comes with a title, instructions, prep time, wine pairing, calorie count, and nutritional facts.
 - **Simple & Clean UI**: Built with Streamlit to be easy and fun to use.
@@ -21,8 +18,7 @@ The coolest part? You can just snap a picture of your ingredients, and ChefGPT w
 - **Web App**: Streamlit
 - **The Brains**:
     - OpenAI & OpenRouter for generating creative recipes.
-    - LLaMA 3.2 Vision for the image recognition magic.
-- **Setup**: Uses `venv` for a clean environment and a `requirements.txt` for dependencies.
+**Setup**: Uses `venv` for a clean environment and a `requirements.txt` for dependencies.
 
 ## 🚀 Get Cooking!
 
